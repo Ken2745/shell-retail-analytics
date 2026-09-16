@@ -1,0 +1,6 @@
+resources:
+  apps:
+    shell_retail_analytics:
+      name: shell-retail-analytics
+      description: Shell Retail Intelligence
+      source_code_path: ../src/app

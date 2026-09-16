@@ -1,0 +1,10 @@
+bundle:
+  name: shell-retail-analytics
+
+include:
+  - resources/*.yml
+
+targets:
+  free:
+    workspace:
+      host: https://dbc-b7c54f7a-7524.cloud.databricks.com

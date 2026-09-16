@@ -1,0 +1,8 @@
+command: ["python", "app.py"]
+env:
+  - name: USE_MOCK_BACKEND
+    value: "true"
+  - name: DATABRICKS_HOST
+    value: "https://dbc-b7c54f7a-7524.cloud.databricks.com"
+  - name: DATABRICKS_SQL_WAREHOUSE_ID
+    value: "e2f2719979a11f9d"
